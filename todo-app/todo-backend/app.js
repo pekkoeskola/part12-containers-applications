@@ -4,6 +4,7 @@ const cors = require('cors');
 
 const indexRouter = require('./routes/index');
 const todosRouter = require('./routes/todos');
+const { REDIS_URL } = require('./util/config');
 
 const app = express();
 
